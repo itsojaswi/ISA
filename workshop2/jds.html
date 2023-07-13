@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>Goodmorning</div>
+    </div>
+    <script>
+      //   const containerElement = document.querySelector(".container");
+
+      //   const person = {
+      //     name: "john",
+      //     age: 19,
+      //   };
+
+      //   const { name, age } = person;
+
+      //   console.log(name, age);
+      //   const container = document.querySelector(".container");
+
+      //   container.innerHTML = `<div>${name}</div
+      //     <div>${age}</div>`;
+
+      const arr = [
+        {
+          name: "john",
+          age: 19,
+        },
+        {
+          name: "bob",
+          age: 18,
+        },
+        {
+          name: "charlie",
+          age: 23,
+        },
+      ];
+
+      let container = document.querySelector(".container");
+      container.innerHTML = " ";
+      for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i].name, arr[i].age);
+
+        const { name, age } = arr[i];
+
+        container.innerHTML += `<div>${name}</div 
+        <div>${age}</div>`;
+      }
+    </script>
+  </body>
+</html>

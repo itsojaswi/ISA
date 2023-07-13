@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #34495e;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+.logo {
+  display: flex;
+  background-color: #22313f;
+  margin-bottom: 30px;
+  padding: 30px;
+  height: 50px;
+}
+
+#logo {
+  display: block;
+  font-size: 1.5em;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  color: white;
+}
+
+span {
+  color: #8dc6ff;
+}
+
+.search {
+  padding: 15px;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #e4f1fe;
+}
+
+.button {
+  border: none;
+  outline: none;
+  height: 43px;
+  width: 43px;
+  padding: 7px;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-color: #e4f1fe;
+}
+
+.buttons {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #8dc6ff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  background-color: #222831;
+  color: white;
+  padding: 20px 30px;
+  height: 560px;
+  width: 250px;
+  margin: 40px 40px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.image {
+  height: 350px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.watch-button {
+  height: 30px;
+  margin: 15px;
+  margin-left: 70px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e4f1fe;
+}
+
+/* @media screen and (max-width: 380px) {
+  .logo {
+    width: 100%;
+    height: 20px;
+  }
+
+  .search-bar {
+    height: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 66%;
+    margin: auto;
+  }
+
+  #logo {
+    font-size: 18px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+  }
+
+  .button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .container {
+    padding: 15px 15px;
+    margin: 15px 15px;
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .watch-button {
+    margin-left: 100px;
+  }
+} */
